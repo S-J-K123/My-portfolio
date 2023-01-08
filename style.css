@@ -504,10 +504,16 @@ PROJECTS
     margin-bottom: 60px;
 }
 
+.project__2{
+    margin-top: 80px;
+}
+
 .project__img{
     width: 100%;
     transition: all 600ms ease;
+
 }
+
 
 .project:hover .project__img{
     transform: scale(1.07);
@@ -519,7 +525,9 @@ PROJECTS
     border-radius: 20px;
     box-shadow: 0 20px 80px 0 rgb( 0, 0,0,0.45);
     overflow: hidden;
+    
 }
+
 
 .project__wrapper:hover .project__description{
     opacity: 1;
