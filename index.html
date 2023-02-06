@@ -7,11 +7,15 @@
     <title>Shabnam Khan</title>
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ 
+
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
 <script type="text/javascript">
+    
    (function(){
       emailjs.init("ooN257U6LhTpiH_Fd");
    })();
@@ -54,14 +58,35 @@
     </nav>
     <header class="header">
      <div class="header__content">
-         <h1 class="title">Hey</h1>
-         <h1 class="title orange">I'm Shabnam</h1>
+
+
+
+        <div
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="True"
+        data-aos-anchor-placement="top-center"
+      >
+    <h1 class="title">Hey</h1>
+         <h1 class="title orange" >I'm Shabnam</h1>
          <p class="header__para">
              I'm a <b class="orange">Frontend Software Engineer</b> with a strong passion for
              experiences.
              <br>
              Here's a bit more <b class="orange click"onclick="toggleModal()">about me</b>.
          </p>
+      </div>
+
+
+     
+
+
+
+
          <div class="social__list">
              <a href="https://www.linkedin.com/in/shabnam-khan-269384234/" target="_blank" class="social__link click">
                 <i class="fab fa-linkedin-in"></i>
@@ -162,7 +187,14 @@
          <h1 class="section__title">
              Here are some of my <span class="orange">projects</span>
          </h1>
-         <ul class="project__list">
+         <ul class="project__list"        data-aos="fade-up"
+         data-aos-offset="200"
+         data-aos-delay="50"
+         data-aos-duration="1000"
+         data-aos-easing="ease-in-out"
+         data-aos-mirror="true"
+         data-aos-once="True"
+         data-aos-anchor-placement="top-center">
              <li class="project">
                  <div class="project__wrapper">
                      <img src="assets/Undraw_Books.svg" class="project__img" alt="">
@@ -232,7 +264,7 @@
                             I have created a Movie website by fetching a real-life API.
                         </p>
                         <div class="project__description--links">
-                            <a href="https://react-final-project-u196-l4fdgnemb-s-j-k123.vercel.app/" target="_blank" class="project__description--link">
+                            <a href="https://react-final-project-f5dm-c9mpk0jbo-s-j-k123.vercel.app/" target="_blank" class="project__description--link">
                                <i class="fas fa-link"></i>
                             </a>
                             <a href="https://github.com/S-J-K123" target="_blank" class="project__description--link">
@@ -252,7 +284,7 @@
     <div class="container">
         <div class="row footer__row">
         <figure>
-            <img class="footer__logo--img" src="assets/logo.svg" alt="">
+            <img class="footer__logo--img" src="assets/sk logo 2.png" alt="">
         </figure>
         <div class="footer__social--list">
             <a href="#" class="
@@ -288,6 +320,14 @@
         <div class="footer__copyright">Copyright &copy; 2021 Shabnam Jabeen Khan</div>
     </div>
 </div>
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </footer>
 
 
